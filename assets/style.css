@@ -50,10 +50,12 @@ header nav ul li a {
     font-size: 22px;
 }
 
+/* header end */
+
 /* hero style start */
 
 .hero {
-    background-image: url(assets/images/hero-bg.jpg);
+    background-image: url(./images/hero-bg.jpg);
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -101,6 +103,8 @@ header nav ul li a {
     width: 100%;
     margin-bottom: 15px;
 }
+
+/* hero end */
 
 /* what we do section start */
 
@@ -162,6 +166,8 @@ header nav ul li a {
     font-size: 38px;
 }
 
+/* what we do section end */
+
 /* meet the trainers start */
 
 .trainers {
@@ -211,6 +217,8 @@ header nav ul li a {
     text-align: right;
 }
 
+/* meet the trainers end */
+
 /* reach out start */
 
 .contact {
@@ -225,6 +233,7 @@ header nav ul li a {
 .contact-info iframe {
     width: 500px;
     height: 500px;
+    margin: 0 auto;
 }
 
 .contact-info div {
@@ -239,11 +248,11 @@ header nav ul li a {
 .contact-info h3 {
     color: #fce138;
     font-size: 32px;
-    top: -10px; 
+    top: -20px; 
 }
 
 .contact-info p, .contact-info address {
-    margin: 20px 0;
+    margin: 0 auto;
     line-height: 1.5;
     font-size: 20px;
     font-style: normal;
@@ -255,6 +264,8 @@ header nav ul li a {
 .contact-info a {
     color: #fce138;
 }
+
+/* contact info end */
 
 /* footer start */
 
@@ -285,4 +296,36 @@ footer a {
 
 section {
     padding: 60px;
+}
+
+/* privacy policy css */
+
+.hero-secondary {
+    background-image: url(./images/hero-bg.jpg);
+    height: 300px;
+    background-size: auto;
+    background-position: bottom;
+    position: relative;
+}
+
+.page-title {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto 30px auto;
+    color: #fce138;
+    border-bottom: 2px solid #fce138;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    overflow: auto;
+}
+
+.secondary-content {
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.secondary-content h3 {
+    font-size: 32px;
+    font-weight: bolder;
 }
