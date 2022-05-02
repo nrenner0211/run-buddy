@@ -8,14 +8,18 @@
     box-sizing: border-box;
 }
 
-/* body */
+/* generic */
 
 body {
     color: #39a6b2;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* header */ 
+section {
+    padding: 60px;
+}
+
+/* header start */ 
 
 header {
     padding: 20px 35px;
@@ -293,39 +297,3 @@ footer a {
 }
 
 /* footer end */
-
-section {
-    padding: 60px;
-}
-
-/* privacy policy css */
-
-.hero-secondary {
-    background-image: url(./images/hero-bg.jpg);
-    height: 300px;
-    background-size: auto;
-    background-position: bottom;
-    position: relative;
-}
-
-.page-title {
-    text-align: center;
-    width: 400px;
-    margin: 0 auto 30px auto;
-    color: #fce138;
-    border-bottom: 2px solid #fce138;
-    font-style: italic;
-    font-weight: lighter;
-    font-size: 36px;
-    overflow: auto;
-}
-
-.secondary-content {
-    line-height: 1.5;
-    font-size: 20px;
-}
-
-.secondary-content h3 {
-    font-size: 32px;
-    font-weight: bolder;
-}
