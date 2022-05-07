@@ -367,3 +367,27 @@ footer a {
 .text-right {
     text-align: right;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width: 980px){
+    header h1 a {
+    
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+
+@media screen and (max-width: 768px){
+    header h1 {
+    
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px){
+    header h1 {
+    
+    }
+}
